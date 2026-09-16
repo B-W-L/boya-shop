@@ -59,17 +59,23 @@
       <button class="sidebar-close" id="sidebarClose">✕</button>
     </div>
     <ul class="sidebar-menu">
-      <li class="sidebar-home"><a href="index.html">Accueil</a></li>
+      <li><a href="index.html" class="sidebar-link-main">Accueil</a></li>
+
       <li class="sidebar-cat-item">
-        <button class="sidebar-cat-btn" onclick="toggleSidebarCat(this)">Homme <span class="sidebar-arrow">›</span></button>
+        <button class="sidebar-cat-btn" onclick="toggleSidebarCat(this)">
+          Homme <span class="sidebar-arrow">›</span>
+        </button>
         <ul class="sidebar-submenu">
           <li><a href="#products">Vestes &amp; Costumes</a></li>
           <li><a href="#products">Chemises</a></li>
           <li><a href="#products">Chaussures</a></li>
         </ul>
       </li>
+
       <li class="sidebar-cat-item">
-        <button class="sidebar-cat-btn" onclick="toggleSidebarCat(this)">Femme <span class="sidebar-arrow">›</span></button>
+        <button class="sidebar-cat-btn" onclick="toggleSidebarCat(this)">
+          Femme <span class="sidebar-arrow">›</span>
+        </button>
         <ul class="sidebar-submenu">
           <li><a href="#products">Robes de Soirée</a></li>
           <li><a href="#products">Tailleurs &amp; Ensembles</a></li>
@@ -78,8 +84,8 @@
       </li>
     </ul>
     <div class="sidebar-footer">
-      <p>Contact WhatsApp</p>
-      <p>Fashion &amp; Style</p>
+      <p><span>📞</span> Contact WhatsApp</p>
+      <p><span>📍</span> Fashion &amp; Style</p>
     </div>
   </nav>
 
@@ -185,6 +191,25 @@
         </div>
         <span>Chaussures</span>
       </div>
+      <div class="cat-item" data-cat="homme">
+        <div class="cat-circle">
+          <img src="vestes.jpg" alt="Homme"/>
+        </div>
+        <span>Homme</span>
+      </div>
+      <div class="cat-item" data-cat="accessoires">
+        <div class="cat-circle">
+          <img src="accessoires.jpg" alt="Accessoires"/>
+        </div>
+        <span>Accessoires</span>
+      </div>
+      <div class="cat-item" data-cat="femme">
+        <div class="cat-circle">
+          <img src="robes.jpg" alt="Femme"/>
+        </div>
+        <span>Femme</span>
+      </div>
+    </div>
   </section>
 
   <!-- ============================================================
@@ -738,7 +763,7 @@
       <div class="product-card" data-id="28">
         <div class="product-img-wrap">
           <span class="badge-new">Nouveau</span>
-          <img src="Kit accessoires.jpg" alt="Kit Sac & Sneakers Femme" class="product-img"/>
+          <img src="kit-accessoires.jpg" alt="Kit Sac & Sneakers Femme" class="product-img"/>
           <button class="fav-btn" data-id="28">♡</button>
         </div>
         <div class="product-info">
@@ -1188,42 +1213,6 @@
         </div>
       </div>
 
-
-      <!-- ID 29 — Tailleur & Ensemble -->
-      <div class="product-card" data-id="29">
-        <div class="product-img-wrap">
-          <span class="badge-new">Nouveau</span>
-          <img src="Tailleurs &amp; Ensembles1.jpg" alt="Tailleur &amp; Ensemble Élégant" class="product-img"/>
-          <button class="fav-btn" data-id="29">♡</button>
-        </div>
-        <div class="product-info">
-          <h3 class="product-name">Tailleur &amp; Ensemble Élégant</h3>
-          <p class="product-price gold">46$</p>
-          <div class="product-sizes">
-            <span class="label">Tailles disponibles :</span>
-            <div class="sizes-row">
-              <button class="size-btn active">38</button>
-              <button class="size-btn">40</button>
-              <button class="size-btn">42</button>
-              <button class="size-btn">44</button>
-              <button class="size-btn">46</button>
-              <button class="size-btn">48</button>
-            </div>
-          </div>
-          <div class="product-colors">
-            <span class="label">Modèles :</span>
-            <div class="colors-row">
-              <button class="color-btn active" style="background:#c8a06a;" title="Modèle 1"></button>
-              <button class="color-btn" style="background:#7a4a8a;" title="Modèle 2"></button>
-              <button class="color-btn" style="background:#2a5a8a;" title="Modèle 3"></button>
-            </div>
-          </div>
-          <a href="product.html?id=29" class="btn-details">
-            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
-            Voir détails &nbsp;›
-          </a>
-        </div>
-      </div>
     </div>
   </section>
 
@@ -1288,27 +1277,29 @@
   </footer>
 
   <!-- WHATSAPP FAB -->
-  <a href="https://wa.me/+905340375119?text=Bonjour%20BOYA%20Shop%2C%20je%20voudrais%20des%20informations." class="whatsapp-fab" target="_blank" aria-label="WhatsApp">
+  <a href="https://wa.me/+905338598144?text=Bonjour%20BOYA%20Shop%2C%20je%20voudrais%20des%20informations." class="whatsapp-fab" target="_blank" aria-label="WhatsApp">
     <svg viewBox="0 0 32 32" width="32" height="32" fill="white"><path d="M16 0C7.163 0 0 7.163 0 16c0 2.822.736 5.469 2.027 7.773L0 32l8.418-2.004A15.93 15.93 0 0 0 16 32c8.837 0 16-7.163 16-16S24.837 0 16 0zm0 29.333a13.27 13.27 0 0 1-6.74-1.826l-.484-.288-5 1.19 1.21-4.864-.316-.5A13.27 13.27 0 0 1 2.667 16C2.667 8.636 8.636 2.667 16 2.667S29.333 8.636 29.333 16 23.364 29.333 16 29.333zm7.27-9.98c-.398-.2-2.356-1.163-2.72-1.296-.366-.133-.632-.2-.898.2-.266.398-1.031 1.296-1.264 1.562-.232.266-.465.3-.863.1-.398-.2-1.68-.619-3.2-1.974-1.183-1.055-1.981-2.357-2.214-2.755-.232-.398-.025-.614.175-.812.18-.18.398-.465.598-.7.2-.232.265-.398.398-.664.132-.266.066-.498-.033-.698-.1-.2-.898-2.163-1.23-2.96-.325-.779-.656-.674-.898-.687-.232-.012-.498-.015-.764-.015-.266 0-.698.1-.1064.498-.366.398-1.398 1.363-1.398 3.326 0 1.963 1.43 3.862 1.63 4.128.2.266 2.813 4.294 6.815 6.022.952.411 1.695.657 2.274.841.955.304 1.825.261 2.513.158.767-.114 2.356-.963 2.689-1.894.333-.93.333-1.727.233-1.894-.1-.166-.366-.266-.764-.465z"/></svg>
   </a>
 
 </div><!-- /main-site -->
 
-<script src="main.js"></script>
 
 <script>
 function toggleSidebarCat(btn) {
-  var submenu = btn.nextElementSibling;
-  var isOpen = btn.classList.contains('open');
-  document.querySelectorAll('.sidebar-cat-btn').forEach(function(b) {
+  const submenu = btn.nextElementSibling;
+  const isOpen = btn.classList.contains('open');
+  // Fermer tous les autres
+  document.querySelectorAll('.sidebar-cat-btn').forEach(b => {
     b.classList.remove('open');
-    if (b.nextElementSibling) b.nextElementSibling.style.display = 'none';
+    b.nextElementSibling?.classList.remove('open');
   });
+  // Ouvrir celui-ci si était fermé
   if (!isOpen) {
     btn.classList.add('open');
-    if (submenu) submenu.style.display = 'block';
+    submenu?.classList.add('open');
   }
 }
 </script>
+<script src="main.js"></script>
 </body>
 </html>
