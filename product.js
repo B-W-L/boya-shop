@@ -361,13 +361,13 @@ const PRODUCTS = {
     price: '89$',
     desc: 'Kit coordiné femme : sac à bandoulière chaîne dorée + sneakers assortis. Plusieurs modèles disponibles : Versace, Tommy Hilfiger, Hermès, Guess. Le combo parfait pour un look élégant et sportif.',
     icon: '👜',
-    img: 'Kit accessoires.jpg',
+    img: 'kit-accessoires.jpg',
     colors: [
-      { name: 'Versace blanc/or', hex: '#f5f5f0', img: 'Kit accessoires.jpg' },
-      { name: 'Tommy marine/rouge', hex: '#1a3a7a', img: 'Kit accessoires0.jpg' },
-      { name: 'Hermès noir', hex: '#111111', img: 'Kit accessoires1.jpg' },
-      { name: 'Hermès blanc/orange', hex: '#f5f0e8', img: 'Kit accessoires2.jpg' },
-      { name: 'Guess camel', hex: '#c8a06a', img: 'Kit accessoires3.jpg' }
+      { name: 'Versace blanc/or', hex: '#f5f5f0', img: 'kit-accessoires.jpg' },
+      { name: 'Tommy marine/rouge', hex: '#1a3a7a', img: 'kit-accessoires0.jpg' },
+      { name: 'Hermès noir', hex: '#111111', img: 'kit-accessoires1.jpg' },
+      { name: 'Hermès blanc/orange', hex: '#f5f0e8', img: 'kit-accessoires2.jpg' },
+      { name: 'Guess camel', hex: '#c8a06a', img: 'kit-accessoires3.jpg' }
     ],
     sizes: ['36', '37', '38', '39', '40', '41'],
     whatsapp: '+905340375119'
@@ -385,17 +385,17 @@ const PRODUCTS = {
     ],
     sizes: ['38', '40', '42', '44', '46', '48'],
     whatsapp: '+905340375119'
-  }  ,
+  },
   29: {
     name: 'Tailleur & Ensemble Élégant',
     price: '46$',
     desc: 'Tailleur et ensemble femme élégant, coupe soignée et raffinée. Disponible en plusieurs modèles et coloris. Idéal pour les cérémonies, le bureau ou les occasions semi-formelles.',
     icon: '👗',
-    img: 'Tailleurs & Ensembles1.jpg',
+    img: 'tailleurs-ensembles1.jpg',
     colors: [
-      { name: 'Modèle 1', hex: '#c8a06a', img: 'Tailleurs & Ensembles1.jpg' },
-      { name: 'Modèle 2', hex: '#7a4a8a', img: 'Tailleurs & Ensembles11.jpg' },
-      { name: 'Modèle 3', hex: '#2a5a8a', img: 'Tailleurs & Ensembles111.jpg' }
+      { name: 'Modèle 1', hex: '#c8a06a', img: 'tailleurs-ensembles1.jpg' },
+      { name: 'Modèle 2', hex: '#7a4a8a', img: 'tailleurs-ensembles11.jpg' },
+      { name: 'Modèle 3', hex: '#2a5a8a', img: 'tailleurs-ensembles111.jpg' }
     ],
     sizes: ['38', '40', '42', '44', '46', '48'],
     whatsapp: '+905338598144'
