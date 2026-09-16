@@ -1,0 +1,12 @@
+# Ignorer VSCode et ses extensions
+.vscode/
+
+# Ignorer fichiers système Windows
+Thumbs.db
+desktop.ini
+
+# Ignorer fichiers Mac
+.DS_Store
+
+# Ignorer Node modules si jamais
+node_modules/
