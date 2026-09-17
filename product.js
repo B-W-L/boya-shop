@@ -18,7 +18,7 @@ const PRODUCTS = {
       { name: 'Marron foncé', hex: '#4a2800', img: 'vestes0000.jpg' }
     ],
     sizes: ['46', '48', '50', '52', '54', '56'],
-    whatsapp: '+905340375119'
+    whatsapp: '+905338598144'
   },
   2: {
     name: 'Robe de Soirée Élégante',
@@ -33,14 +33,14 @@ const PRODUCTS = {
       { name: 'Camel', hex: '#c8a96e' }
     ],
     sizes: ['42', '44', '46', '48'],
-    whatsapp: '+905340375119'
+    whatsapp: '+905338598144'
   },
   3: {
     name: 'Chemise classique',
-    price: '40$',
+    price: '19$',
     desc: 'Chemise classique en coton premium, coupe droite élégante. Intemporelle et polyvalente, parfaite aussi bien pour le bureau que pour les sorties.',
     icon: '👕',
-    img: 'chemises.jpg',
+    img: 'chemise5.jpg',
     colors: [
       { name: 'Blanc', hex: '#f5f5f5' },
       { name: 'Noir', hex: '#222222' },
@@ -48,7 +48,7 @@ const PRODUCTS = {
       { name: 'Blanc cassé', hex: '#e8e8e8' }
     ],
     sizes: ['M', 'L', 'XL', 'XXL', '3XL'],
-    whatsapp: '+905340375119'
+    whatsapp: '+905338598144'
   },
   4: {
     name: 'Chaussures en cuir',
@@ -62,7 +62,7 @@ const PRODUCTS = {
       { name: 'Camel', hex: '#c8a96e' }
     ],
     sizes: ['39', '40', '41', '42', '43', '44', '45', '46'],
-    whatsapp: '+905340375119'
+    whatsapp: '+905338598144'
   },
   5: {
     name: 'Costume Croisé à Rayures Grises',
@@ -75,7 +75,7 @@ const PRODUCTS = {
       { name: 'Gris rayures', hex: '#888888', img: 'vestes1.jpg' }
     ],
     sizes: ['46', '48', '50', '52', '54', '57'],
-    whatsapp: '+905340375119'
+    whatsapp: '+905338598144'
   },
   6: {
     name: 'Costume Slim Vert Élégant',
@@ -88,7 +88,7 @@ const PRODUCTS = {
       { name: 'Vert', hex: '#2d5a27', img: 'vestes2.jpg' }
     ],
     sizes: ['46', '48', '50', '52', '54', '56'],
-    whatsapp: '+905340375119'
+    whatsapp: '+905338598144'
   },
   7: {
     name: 'Costume Croisé Camel Premium',
@@ -101,7 +101,7 @@ const PRODUCTS = {
       { name: 'Camel chiné', hex: '#8B6347', img: 'vestes5.jpg' }
     ],
     sizes: ['46', '48', '50', '52', '54', '56'],
-    whatsapp: '+905340375119'
+    whatsapp: '+905338598144'
   },
   8: {
     name: 'Costume Classique Noir Premium',
@@ -114,12 +114,12 @@ const PRODUCTS = {
       { name: 'Noir', hex: '#111111', img: 'vestes6.jpg' }
     ],
     sizes: ['46', '48', '50', '52', '54', '56'],
-    whatsapp: '+905340375119'
+    whatsapp: '+905338598144'
   },
   9: {
     name: 'Costume Noir Col Montant Avant-Garde',
-    price: '290$',
-    oldPrice: '300$',
+    price: '127$',
+    oldPrice: '140$',
     desc: 'Costume homme noir ultra slim, col montant sans cravate, boutonnage asymétrique sur le côté avec boutons argentés. Design avant-garde et audacieux, pochette assortie. Pour les hommes qui osent se démarquer en soirée ou en cérémonie.',
     icon: '🧥',
     img: 'vestes3.jpg',
@@ -127,12 +127,12 @@ const PRODUCTS = {
       { name: 'Noir', hex: '#111111', img: 'vestes3.jpg' }
     ],
     sizes: ['46', '48', '50', '52', '54', '56'],
-    whatsapp: '+905340375119'
+    whatsapp: '+905338598144'
   },
   10: {
     name: 'Costume 3 Pièces Noir Rayures Premium',
-    price: '290$',
-    oldPrice: '300$',
+    price: '169$',
+    oldPrice: '180$',
     desc: 'Costume 3 pièces homme noir à fines rayures, veste simple boutonnage, gilet assorti avec chaîne de montre décorative. Coupe ajustée raffinée, revers cranté, finitions haut de gamme. L\'élégance absolue pour mariages et grandes occasions.',
     icon: '🧥',
     img: 'vestes4.jpg',
@@ -140,7 +140,7 @@ const PRODUCTS = {
       { name: 'Noir rayures', hex: '#1a1a1a', img: 'vestes4.jpg' }
     ],
     sizes: ['46', '48', '50', '52', '54', '56'],
-    whatsapp: '+905340375119'
+    whatsapp: '+905338598144'
   },
   11: {
     name: 'Smoking 3 Pièces Bleu Ardoise',
@@ -154,7 +154,7 @@ const PRODUCTS = {
       { name: 'Bleu ardoise 2', hex: '#4a6e94', img: 'vestes77.jpg' }
     ],
     sizes: ['46', '48', '50', '52', '54', '56'],
-    whatsapp: '+905340375119'
+    whatsapp: '+905338598144'
   },
   12: {
     name: 'Smoking Blanc Ivoire Premium',
@@ -168,20 +168,20 @@ const PRODUCTS = {
       { name: 'Blanc ivoire 2', hex: '#ede8df', img: 'vestes88.jpg' }
     ],
     sizes: ['46', '48', '50', '52', '54', '56'],
-    whatsapp: '+905340375119'
+    whatsapp: '+905338598144'
   },
   15: {
     name: 'Chemise Satin Bleu Marine',
-    price: '38$',
+    price: '19$',
     desc: 'Chemise homme en tissu satiné bleu marine, col italien élégant, poche poitrine boutonnée. Coupe slim mettant en valeur la silhouette. Toucher doux et brillance subtile, parfaite pour les soirées, cérémonies ou en casual chic.',
     icon: '👔',
     img: 'chemise1.jpg',
     colors: [
       { name: 'Bleu marine', hex: '#1a2a5e', img: 'chemise1.jpg' },
-      { name: 'Bleu ciel', hex: '#6aaad4', img: 'chemise11.jpg' }
+      { name: 'Bleu ciel', hex: '#6aaad4', img: 'chemise1.jpg' }
     ],
     sizes: ['M', 'L', 'XL', 'XXL', '3XL'],
-    whatsapp: '+905340375119'
+    whatsapp: '+905338598144'
   },
   14: {
     name: 'Monk Strap Cuir Grainé',
@@ -194,7 +194,7 @@ const PRODUCTS = {
       { name: 'Noir', hex: '#111111', img: 'chaussure22.jpg' }
     ],
     sizes: ['39', '40', '41', '42', '43', '44', '45', '46'],
-    whatsapp: '+905340375119'
+    whatsapp: '+905338598144'
   },
   13: {
     name: 'Derby Croco Luxe',
@@ -207,11 +207,11 @@ const PRODUCTS = {
       { name: 'Noir', hex: '#111111' }
     ],
     sizes: ['39', '40', '41', '42', '43', '44', '45', '46'],
-    whatsapp: '+905340375119'
+    whatsapp: '+905338598144'
   },
   16: {
     name: 'Chemise Lin Camel',
-    price: '35$',
+    price: '19$',
     desc: 'Chemise homme en lin camel naturel, col classique, coupe droite décontractée. Tissu respirant idéal pour un style casual chic en toute saison.',
     icon: '👔',
     img: 'chemise3.jpg',
@@ -219,11 +219,11 @@ const PRODUCTS = {
       { name: 'Camel', hex: '#c8a06a', img: 'chemise3.jpg' }
     ],
     sizes: ['M', 'L', 'XL', 'XXL', '3XL'],
-    whatsapp: '+905340375119'
+    whatsapp: '+905338598144'
   },
   17: {
     name: 'Chemise Rayures Bold Presidentialment',
-    price: '42$',
+    price: '19$',
     desc: 'Chemise homme à rayures larges col mao, marque Presidentialment. Coupe slim moderne, tissu satiné doux. Un style affirmé pour les hommes qui osent se démarquer.',
     icon: '👔',
     img: 'chemise4.jpg',
@@ -232,11 +232,11 @@ const PRODUCTS = {
       { name: 'Noir & blanc', hex: '#222222', img: 'chemise44.jpg' }
     ],
     sizes: ['M', 'L', 'XL', 'XXL', '3XL'],
-    whatsapp: '+905340375119'
+    whatsapp: '+905338598144'
   },
   18: {
     name: 'Chemise Satin Col Mao Presidentialment',
-    price: '40$',
+    price: '19$',
     desc: 'Chemise homme en satin uni col mao, marque Presidentialment. Finitions soignées, boutons assortis, coupe slim raffinée. Parfaite pour les soirées et occasions élégantes.',
     icon: '👔',
     img: 'chemise5.jpg',
@@ -246,11 +246,11 @@ const PRODUCTS = {
       { name: 'Bleu ciel', hex: '#7ab8d8', img: 'chemise555.jpg' }
     ],
     sizes: ['M', 'L', 'XL', 'XXL', '3XL'],
-    whatsapp: '+905340375119'
+    whatsapp: '+905338598144'
   },
   19: {
     name: 'Chemise Lin Bleu Col Mao',
-    price: '38$',
+    price: '19$',
     desc: 'Chemise homme en pur lin bleu, col mao, coupe droite décontractée. Tissu naturel respirant, idéale pour un style casual chic ou une tenue estivale élégante.',
     icon: '👔',
     img: 'chemise6.jpg',
@@ -258,47 +258,47 @@ const PRODUCTS = {
       { name: 'Bleu lin', hex: '#4a7fa5', img: 'chemise6.jpg' }
     ],
     sizes: ['M', 'L', 'XL', 'XXL', '3XL'],
-    whatsapp: '+905340375119'
+    whatsapp: '+905338598144'
   },
   20: {
     name: 'Chemise Carnovale Adriano Rayures Col Blanc',
-    price: '45$',
+    price: '19$',
     desc: 'Chemise homme Carnovale Adriano Italy, rayures fines contrastées, col et manchettes blancs. Premium Quality Slim Fit. Un classique italien élégant pour les occasions formelles et semi-formelles.',
     icon: '👔',
     img: 'chemise7.jpg',
     colors: [
       { name: 'Turquoise & blanc fines', hex: '#4ab8c8', img: 'chemise7.jpg' },
-      { name: 'Bleu & blanc', hex: '#3a6aaa', img: 'chemise77.jpg' },
-      { name: 'Rouge & blanc fines', hex: '#cc2222', img: 'chemise8.jpg' },
-      { name: 'Rouge & blanc (Adriano)', hex: '#bb1111', img: 'chemise7777.jpg' }
+      { name: 'Bleu & blanc', hex: '#3a6aaa', img: 'chemise7.jpg' },
+      { name: 'Rouge & blanc fines', hex: '#cc2222', img: 'chemise6.jpg' },
+      { name: 'Rouge & blanc (Adriano)', hex: '#bb1111', img: 'chemise7.jpg' }
     ],
     sizes: ['M', 'L', 'XL', 'XXL', '3XL'],
-    whatsapp: '+905340375119'
+    whatsapp: '+905338598144'
   },
   21: {
     name: 'Chemise Rayures Noir Jose Perez',
-    price: '40$',
+    price: '19$',
     desc: 'Chemise homme Jose Perez Pure Cotton, rayures verticales noir et blanc, col et manchettes blancs. Qualité premium, coupe slim. Style élégant et affirmé pour toutes occasions.',
     icon: '👔',
-    img: 'chemise777.jpg',
+    img: 'chemise7.jpg',
     colors: [
-      { name: 'Noir & blanc', hex: '#222222', img: 'chemise777.jpg' }
+      { name: 'Noir & blanc', hex: '#222222', img: 'chemise7.jpg' }
     ],
     sizes: ['M', 'L', 'XL', 'XXL', '3XL'],
-    whatsapp: '+905340375119'
+    whatsapp: '+905338598144'
   },
   22: {
     name: 'Chemise Rayures Larges Carnovale',
-    price: '42$',
+    price: '19$',
     desc: 'Chemise homme Carnovale Adriano Italy, rayures larges vives col classique. Premium Quality Slim Fit. Couleurs éclatantes pour un style affirmé et moderne.',
     icon: '👔',
-    img: 'chemise9.jpg',
+    img: 'chemise3.jpg',
     colors: [
-      { name: 'Rouge & blanc', hex: '#cc2222', img: 'chemise9.jpg' },
-      { name: 'Turquoise & blanc', hex: '#4ab8c8', img: 'chemise99.jpg' }
+      { name: 'Rouge & blanc', hex: '#cc2222', img: 'chemise3.jpg' },
+      { name: 'Turquoise & blanc', hex: '#4ab8c8', img: 'chemise33.jpg' }
     ],
     sizes: ['M', 'L', 'XL', 'XXL', '3XL'],
-    whatsapp: '+905340375119'
+    whatsapp: '+905338598144'
   },
   23: {
     name: 'Robe Longue Sirène Brodée',
@@ -312,7 +312,7 @@ const PRODUCTS = {
       { name: 'Bleu glacier', hex: '#a8c4d8', img: 'robe00.jpg' }
     ],
     sizes: ['38', '40', '42', '44', '46', '48'],
-    whatsapp: '+905340375119'
+    whatsapp: '+905338598144'
   },
   24: {
     name: 'Robe Fente Épaule Dénudée Brodée',
@@ -326,11 +326,11 @@ const PRODUCTS = {
       { name: 'Noir', hex: '#111111', img: 'robe11.jpg' }
     ],
     sizes: ['38', '40', '42', '44', '46', '48'],
-    whatsapp: '+905340375119'
+    whatsapp: '+905338598144'
   },
   25: {
     name: 'Ensemble Veste Ceinturée & Jupe Fleurie',
-    price: '120$',
+    price: '49$',
     desc: 'Ensemble femme veste croisée ceinturée avec broche florale assortie, jupe midi évasée à imprimé floral. Look chic et élégant, parfait pour les sorties, cérémonies ou occasions semi-formelles.',
     icon: '👗',
     img: 'robe2.jpg',
@@ -340,11 +340,11 @@ const PRODUCTS = {
       { name: 'Marron', hex: '#5a3020', img: 'robe222.jpg' }
     ],
     sizes: ['38', '40', '42', '44', '46', '48'],
-    whatsapp: '+905340375119'
+    whatsapp: '+905338598144'
   },
   26: {
     name: 'Ensemble Veste & Jupe Midi Boutons Dorés',
-    price: '110$',
+    price: '39$',
     desc: 'Ensemble femme veste courte boutonnée avec boutons dorés ornementaux, jupe midi évasée assortie. Style rétro chic et raffiné, idéal pour les cérémonies, église et occasions élégantes.',
     icon: '👗',
     img: 'robe3.jpg',
@@ -354,11 +354,11 @@ const PRODUCTS = {
       { name: 'Rose poudré', hex: '#e8b4b8', img: 'robe333.jpg' }
     ],
     sizes: ['38', '40', '42', '44', '46', '48'],
-    whatsapp: '+905340375119'
+    whatsapp: '+905338598144'
   },
   28: {
     name: 'Kit Sac & Sneakers Femme',
-    price: '89$',
+    price: '65$',
     desc: 'Kit coordiné femme : sac à bandoulière chaîne dorée + sneakers assortis. Plusieurs modèles disponibles : Versace, Tommy Hilfiger, Hermès, Guess. Le combo parfait pour un look élégant et sportif.',
     icon: '👜',
     img: 'kit-accessoires.jpg',
@@ -370,11 +370,11 @@ const PRODUCTS = {
       { name: 'Guess camel', hex: '#c8a06a', img: 'kit-accessoires3.jpg' }
     ],
     sizes: ['36', '37', '38', '39', '40', '41'],
-    whatsapp: '+905340375119'
+    whatsapp: '+905338598144'
   },
   27: {
     name: 'Ensemble Peplum & Jupe Crayon Boutons Dorés',
-    price: '115$',
+    price: '39$',
     desc: 'Ensemble femme top peplum manches bouffantes à col V, boutons dorés et ceinture anneau doré, jupe crayon mi-longue assortie. Silhouette flatteuse et élégante pour le bureau ou les cérémonies.',
     icon: '👗',
     img: 'robe4.jpg',
@@ -384,7 +384,7 @@ const PRODUCTS = {
       { name: 'Noir', hex: '#111111', img: 'robe444.jpg' }
     ],
     sizes: ['38', '40', '42', '44', '46', '48'],
-    whatsapp: '+905340375119'
+    whatsapp: '+905338598144'
   },
   29: {
     name: 'Tailleur & Ensemble Élégant',
@@ -398,6 +398,88 @@ const PRODUCTS = {
       { name: 'Modèle 3', hex: '#2a5a8a', img: 'tailleurs-ensembles111.jpg' }
     ],
     sizes: ['38', '40', '42', '44', '46', '48'],
+    whatsapp: '+905338598144'
+  },
+  30: {
+    name: 'Veste Élégante',
+    price: '99$',
+    oldPrice: '120$',
+    desc: 'Veste homme élégante, coupe ajustée et raffinée. Tissu premium, finitions soignées. Idéale pour les cérémonies et occasions formelles.',
+    icon: '🧥',
+    img: 'vestes9.jpg',
+    colors: [
+      { name: 'Modèle 1', hex: '#555555', img: 'vestes9.jpg' },
+      { name: 'Modèle 2', hex: '#333333', img: 'vestes99.jpg' },
+      { name: 'Modèle 3', hex: '#222222', img: 'vestes999.jpg' }
+    ],
+    sizes: ['46', '48', '50', '52', '54', '56'],
+    whatsapp: '+905338598144'
+  },
+  31: {
+    name: 'Veste Élégante',
+    price: '99$',
+    oldPrice: '120$',
+    desc: 'Veste homme élégante, coupe ajustée et raffinée. Tissu premium, finitions soignées. Idéale pour les cérémonies et occasions formelles.',
+    icon: '🧥',
+    img: 'vestesx.jpg',
+    colors: [
+      { name: 'Modèle 1', hex: '#4a4a6a', img: 'vestesx.jpg' },
+      { name: 'Modèle 2', hex: '#3a3a5a', img: 'vestesxx.jpg' },
+      { name: 'Modèle 3', hex: '#2a2a4a', img: 'vestesxxx.jpg' },
+      { name: 'Modèle 4', hex: '#1a1a3a', img: 'vestesxxxx.jpg' }
+    ],
+    sizes: ['46', '48', '50', '52', '54', '56'],
+    whatsapp: '+905338598144'
+  },
+  32: {
+    name: 'Veste Élégante',
+    price: '99$',
+    oldPrice: '120$',
+    desc: 'Veste homme élégante, coupe ajustée et raffinée. Tissu premium, finitions soignées. Idéale pour les cérémonies et occasions formelles.',
+    icon: '🧥',
+    img: 'vestesy.jpg',
+    colors: [
+      { name: 'Modèle 1', hex: '#5a3a2a', img: 'vestesy.jpg' },
+      { name: 'Modèle 2', hex: '#4a2a1a', img: 'vestesyy.jpg' },
+      { name: 'Modèle 3', hex: '#6a4a3a', img: 'vestesyyy.jpg' },
+      { name: 'Modèle 4', hex: '#3a2a1a', img: 'vestesyyyy.jpg' }
+    ],
+    sizes: ['46', '48', '50', '52', '54', '56'],
+    whatsapp: '+905338598144'
+  },
+  33: {
+    name: 'Veste Élégante',
+    price: '99$',
+    oldPrice: '120$',
+    desc: 'Veste homme élégante, coupe ajustée et raffinée. Tissu premium, finitions soignées. Idéale pour les cérémonies et occasions formelles.',
+    icon: '🧥',
+    img: 'vestesxxxxx.jpg',
+    colors: [
+      { name: 'Modèle 1', hex: '#555577', img: 'vestesxxxxx.jpg' },
+      { name: 'Modèle 2', hex: '#444466', img: 'vestesxxxxxx.jpg' },
+      { name: 'Modèle 3', hex: '#333355', img: 'vestesxxxxxxx.jpg' },
+      { name: 'Modèle 4', hex: '#222244', img: 'vestesxxxxxxxx.jpg' }
+    ],
+    sizes: ['46', '48', '50', '52', '54', '56'],
+    whatsapp: '+905338598144'
+  },
+  34: {
+    name: 'Veste Élégante',
+    price: '99$',
+    oldPrice: '120$',
+    desc: 'Veste homme élégante, coupe ajustée et raffinée. Tissu premium, finitions soignées. Idéale pour les cérémonies et occasions formelles.',
+    icon: '🧥',
+    img: 'vestesa.jpg',
+    colors: [
+      { name: 'Modèle 1', hex: '#6a5a4a', img: 'vestesa.jpg' },
+      { name: 'Modèle 2', hex: '#5a4a3a', img: 'vestesaa.jpg' },
+      { name: 'Modèle 3', hex: '#4a3a2a', img: 'vestesaaa.jpg' },
+      { name: 'Modèle 4', hex: '#3a2a1a', img: 'vestesaaaa.jpg' },
+      { name: 'Modèle 5', hex: '#7a6a5a', img: 'vestesaaaaa.jpg' },
+      { name: 'Modèle 6', hex: '#8a7a6a', img: 'vestesaaaaaa.jpg' },
+      { name: 'Modèle 7', hex: '#2a1a0a', img: 'vestesaaaaaaa.jpg' }
+    ],
+    sizes: ['46', '48', '50', '52', '54', '56'],
     whatsapp: '+905338598144'
   }
 

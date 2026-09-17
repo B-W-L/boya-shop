@@ -67,6 +67,22 @@ function initHamburger() {
   overlay?.addEventListener('click', closeSidebar);
 }
 
+// ─── SOUS-MENUS SIDEBAR (Homme / Femme) ─────────────────────
+function toggleSidebarCat(btn) {
+  const submenu = btn.nextElementSibling;
+  const isOpen = btn.classList.contains('open');
+
+  document.querySelectorAll('.sidebar-cat-btn').forEach(b => {
+    b.classList.remove('open');
+    if (b.nextElementSibling) b.nextElementSibling.classList.remove('open');
+  });
+
+  if (!isOpen) {
+    btn.classList.add('open');
+    if (submenu) submenu.classList.add('open');
+  }
+}
+
 // ─── CARROUSEL AUTOMATIQUE ──────────────────────────────────
 function initCarousel() {
   const slides  = document.querySelectorAll('.carousel-slide');
