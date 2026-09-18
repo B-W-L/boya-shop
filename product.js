@@ -788,10 +788,12 @@ function addToCart() {
 }
 
 // Met à jour le badge du compteur panier dans le header (toutes pages)
+// Affiche la somme des quantités, pas juste le nombre de lignes.
 function updateCartCount() {
   const cart = JSON.parse(localStorage.getItem('boyashop-cart') || '[]');
+  const total = cart.reduce((sum, item) => sum + (item.qty || 1), 0);
   const countEl = document.getElementById('cartCount');
-  if (countEl) countEl.textContent = cart.length;
+  if (countEl) countEl.textContent = total;
 }
 
 function initCart() {

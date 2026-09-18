@@ -45,20 +45,61 @@ function renderCart() {
       <img src="${p.img}" alt="${p.name}" style="width:90px; height:90px; object-fit:cover; border-radius:8px; flex-shrink:0;" />
       <div style="flex:1; min-width:0;">
         <h3 class="product-name" style="margin-bottom:6px;">${p.name}</h3>
-        <p class="pd-desc" style="margin:0 0 6px 0; font-size:0.9rem;">
-          Taille : ${item.size || '—'} &nbsp;•&nbsp; Couleur : ${item.color || '—'} &nbsp;•&nbsp; Qté : ${item.qty}
+        <p class="pd-desc" style="margin:0 0 8px 0; font-size:0.9rem;">
+          Taille : ${item.size || '—'} &nbsp;•&nbsp; Couleur : ${item.color || '—'}
         </p>
+        <div style="display:flex; align-items:center; gap:10px; margin-bottom:4px;">
+          <button class="qty-btn-cart" data-action="minus" data-index="${index}"
+            style="width:30px;height:30px;border-radius:50%;border:1px solid rgba(200,160,80,0.5);background:transparent;color:var(--gold,#c8a050);font-size:1.1rem;cursor:pointer;display:flex;align-items:center;justify-content:center;flex-shrink:0;">−</button>
+          <span style="min-width:24px;text-align:center;font-weight:600;" id="qty-display-${index}">${item.qty}</span>
+          <button class="qty-btn-cart" data-action="plus" data-index="${index}"
+            style="width:30px;height:30px;border-radius:50%;border:1px solid rgba(200,160,80,0.5);background:transparent;color:var(--gold,#c8a050);font-size:1.1rem;cursor:pointer;display:flex;align-items:center;justify-content:center;flex-shrink:0;">+</button>
+          <span class="pd-desc" style="font-size:0.85rem;">article(s)</span>
+        </div>
         <p class="product-price gold" style="margin:0;">${p.price}</p>
       </div>
       <button class="fav-btn" data-index="${index}" title="Retirer" style="flex-shrink:0;">🗑️</button>
     `;
-    row.querySelector('button[data-index]').addEventListener('click', () => {
+
+    // Bouton supprimer
+    row.querySelector('button[title="Retirer"]').addEventListener('click', () => {
       removeFromCart(index);
     });
+
+    // Boutons quantité
+    row.querySelectorAll('.qty-btn-cart').forEach(btn => {
+      btn.addEventListener('click', () => {
+        const action = btn.dataset.action;
+        const idx = parseInt(btn.dataset.index);
+        updateQty(idx, action);
+      });
+    });
+
     itemsEl.appendChild(row);
   });
 
   updateWhatsappCartLink(cart);
+}
+
+function updateQty(index, action) {
+  const cart = JSON.parse(localStorage.getItem('boyashop-cart') || '[]');
+  if (!cart[index]) return;
+
+  if (action === 'plus') {
+    cart[index].qty = (cart[index].qty || 1) + 1;
+  } else if (action === 'minus') {
+    cart[index].qty = (cart[index].qty || 1) - 1;
+    if (cart[index].qty < 1) {
+      // Quantité à 0 → supprime l'article
+      cart.splice(index, 1);
+      localStorage.setItem('boyashop-cart', JSON.stringify(cart));
+      renderCart();
+      return;
+    }
+  }
+
+  localStorage.setItem('boyashop-cart', JSON.stringify(cart));
+  renderCart();
 }
 
 function removeFromCart(index) {

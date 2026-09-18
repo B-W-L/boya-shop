@@ -192,7 +192,8 @@ function initFavButtons() {
 // déclaration écrase l'autre — provoquant un double attachement d'écouteur
 // sur le bouton "Ajouter au panier" (double ajout au panier par clic).
 function initCartDisplay() {
-  const count = JSON.parse(localStorage.getItem('boyashop-cart') || '[]').length;
+  const cart = JSON.parse(localStorage.getItem('boyashop-cart') || '[]');
+  const total = cart.reduce((sum, item) => sum + (item.qty || 1), 0);
   const el = document.getElementById('cartCount');
-  if (el) el.textContent = count;
+  if (el) el.textContent = total;
 }
