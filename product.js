@@ -6,6 +6,7 @@
 const PRODUCTS = {
   1: {
     name: 'Costume Double Boutonnage Premium',
+    category: 'homme-costume',
     price: '139$',
     oldPrice: '150$',
     desc: 'Costume homme double boutonnage haut de gamme, coupe ajustée et cintrée. Tissu premium à fines rayures pour les coloris gris et marron. Revers cranté élégant, pochette assortie. Idéal pour cérémonies, mariages et occasions formelles.',
@@ -22,6 +23,7 @@ const PRODUCTS = {
   },
   2: {
     name: 'Robe de Soirée Élégante',
+    category: 'femme-robe',
     price: '250$',
     oldPrice: '300$',
     desc: 'Robe de soirée femme en tissu satiné de qualité supérieure. Silhouette élancée, dos légèrement décolleté. Idéale pour les soirées, mariages et événements formels.',
@@ -37,6 +39,7 @@ const PRODUCTS = {
   },
   3: {
     name: 'Chemise classique',
+    category: 'homme-chemise',
     price: '19$',
     desc: 'Chemise classique en coton premium, coupe droite élégante. Intemporelle et polyvalente, parfaite aussi bien pour le bureau que pour les sorties.',
     icon: '👕',
@@ -52,6 +55,7 @@ const PRODUCTS = {
   },
   4: {
     name: 'Chaussures en cuir',
+    category: 'homme-chaussure',
     price: '80$',
     desc: 'Chaussures de ville en cuir véritable, semelle légère et confortable. Finitions soignées à la main, idéales pour compléter un costume ou une tenue décontractée chic.',
     icon: '👞',
@@ -66,6 +70,7 @@ const PRODUCTS = {
   },
   5: {
     name: 'Costume Croisé à Rayures Grises',
+    category: 'homme-costume',
     price: '173$',
     oldPrice: '190$',
     desc: 'Costume homme élégant à double boutonnage croisé, coupe ajustée et raffinée. Tissu à fines rayures grises pour un look sophistiqué. Revers cranté, finitions premium. Parfait pour les cérémonies, mariages et événements de prestige.',
@@ -79,6 +84,7 @@ const PRODUCTS = {
   },
   6: {
     name: 'Costume Slim Vert Élégant',
+    category: 'homme-costume',
     price: '138$',
     oldPrice: '150$',
     desc: 'Costume classique pour homme en tissu vert élégant, coupe slim moderne et épurée. Silhouette affinée, revers pointu, bouton unique. Idéal pour se démarquer lors des occasions formelles ou semi-formelles.',
@@ -92,6 +98,7 @@ const PRODUCTS = {
   },
   7: {
     name: 'Costume Croisé Camel Premium',
+    category: 'homme-costume',
     price: '279$',
     oldPrice: '300$',
     desc: 'Costume homme double boutonnage croisé dans un tissu camel chiné à fines rayures subtiles. Revers cranté élégant, boutons dorés assortis, pochette blanche. Coupe ajustée qui valorise la silhouette. Pièce signature pour cérémonies et occasions de prestige.',
@@ -105,6 +112,7 @@ const PRODUCTS = {
   },
   8: {
     name: 'Costume Classique Noir Premium',
+    category: 'homme-costume',
     price: '269$',
     oldPrice: '300$',
     desc: 'Costume homme uni noir, coupe slim élégante et intemporelle. Tissu lisse haute qualité, simple boutonnage, revers cranté, pochette blanche assortie. Le classique indémodable qui s\'adapte à toutes les occasions formelles.',
@@ -118,6 +126,7 @@ const PRODUCTS = {
   },
   9: {
     name: 'Costume Noir Col Montant Avant-Garde',
+    category: 'homme-costume',
     price: '127$',
     oldPrice: '140$',
     desc: 'Costume homme noir ultra slim, col montant sans cravate, boutonnage asymétrique sur le côté avec boutons argentés. Design avant-garde et audacieux, pochette assortie. Pour les hommes qui osent se démarquer en soirée ou en cérémonie.',
@@ -131,6 +140,7 @@ const PRODUCTS = {
   },
   10: {
     name: 'Costume 3 Pièces Noir Rayures Premium',
+    category: 'homme-costume',
     price: '169$',
     oldPrice: '180$',
     desc: 'Costume 3 pièces homme noir à fines rayures, veste simple boutonnage, gilet assorti avec chaîne de montre décorative. Coupe ajustée raffinée, revers cranté, finitions haut de gamme. L\'élégance absolue pour mariages et grandes occasions.',
@@ -144,6 +154,7 @@ const PRODUCTS = {
   },
   11: {
     name: 'Smoking 3 Pièces Bleu Ardoise',
+    category: 'homme-costume',
     price: '278$',
     oldPrice: '300$',
     desc: 'Smoking 3 pièces homme bleu ardoise, revers satiné élégant, gilet assorti et nœud papillon inclus. Tissu premium lisse, coupe slim moderne. La pièce signature pour mariages, galas et soirées de prestige.',
@@ -158,6 +169,7 @@ const PRODUCTS = {
   },
   12: {
     name: 'Smoking Blanc Ivoire Premium',
+    category: 'homme-costume',
     price: '278$',
     oldPrice: '300$',
     desc: 'Smoking homme blanc ivoire, revers satiné raffiné, simple boutonnage, pochette noire assortie. Tissu lisse haut de gamme, coupe slim impeccable. L\'élégance intemporelle pour mariages et événements de gala.',
@@ -172,6 +184,7 @@ const PRODUCTS = {
   },
   15: {
     name: 'Chemise Satin Bleu Marine',
+    category: 'homme-chemise',
     price: '19$',
     desc: 'Chemise homme en tissu satiné bleu marine, col italien élégant, poche poitrine boutonnée. Coupe slim mettant en valeur la silhouette. Toucher doux et brillance subtile, parfaite pour les soirées, cérémonies ou en casual chic.',
     icon: '👔',
@@ -185,6 +198,7 @@ const PRODUCTS = {
   },
   14: {
     name: 'Monk Strap Cuir Grainé',
+    category: 'homme-chaussure',
     price: '79$',
     desc: 'Chaussures monk strap homme en cuir grainé marron foncé, boucle dorée élégante. Bout cap toe lisse contrasté, semelle noire robuste. Coupe classique et sophistiquée, idéale pour compléter un costume ou une tenue business casual.',
     icon: '👞',
@@ -198,6 +212,7 @@ const PRODUCTS = {
   },
   13: {
     name: 'Derby Croco Luxe',
+    category: 'homme-chaussure',
     price: '86$',
     desc: 'Chaussures derby homme en cuir effet crocodile brillant, intérieur cuir naturel fauve. Semelle légère contrastée, lacets assortis. Un modèle luxueux et audacieux qui sublime aussi bien un costume qu\'une tenue décontractée chic.',
     icon: '👞',
@@ -211,6 +226,7 @@ const PRODUCTS = {
   },
   16: {
     name: 'Chemise Lin Camel',
+    category: 'homme-chemise',
     price: '19$',
     desc: 'Chemise homme en lin camel naturel, col classique, coupe droite décontractée. Tissu respirant idéal pour un style casual chic en toute saison.',
     icon: '👔',
@@ -223,6 +239,7 @@ const PRODUCTS = {
   },
   17: {
     name: 'Chemise Rayures Bold Presidentialment',
+    category: 'homme-chemise',
     price: '19$',
     desc: 'Chemise homme à rayures larges col mao, marque Presidentialment. Coupe slim moderne, tissu satiné doux. Un style affirmé pour les hommes qui osent se démarquer.',
     icon: '👔',
@@ -236,6 +253,7 @@ const PRODUCTS = {
   },
   18: {
     name: 'Chemise Satin Col Mao Presidentialment',
+    category: 'homme-chemise',
     price: '19$',
     desc: 'Chemise homme en satin uni col mao, marque Presidentialment. Finitions soignées, boutons assortis, coupe slim raffinée. Parfaite pour les soirées et occasions élégantes.',
     icon: '👔',
@@ -250,6 +268,7 @@ const PRODUCTS = {
   },
   19: {
     name: 'Chemise Lin Bleu Col Mao',
+    category: 'homme-chemise',
     price: '19$',
     desc: 'Chemise homme en pur lin bleu, col mao, coupe droite décontractée. Tissu naturel respirant, idéale pour un style casual chic ou une tenue estivale élégante.',
     icon: '👔',
@@ -262,6 +281,7 @@ const PRODUCTS = {
   },
   20: {
     name: 'Chemise Carnovale Adriano Rayures Col Blanc',
+    category: 'homme-chemise',
     price: '19$',
     desc: 'Chemise homme Carnovale Adriano Italy, rayures fines contrastées, col et manchettes blancs. Premium Quality Slim Fit. Un classique italien élégant pour les occasions formelles et semi-formelles.',
     icon: '👔',
@@ -277,6 +297,7 @@ const PRODUCTS = {
   },
   21: {
     name: 'Chemise Rayures Noir Jose Perez',
+    category: 'homme-chemise',
     price: '19$',
     desc: 'Chemise homme Jose Perez Pure Cotton, rayures verticales noir et blanc, col et manchettes blancs. Qualité premium, coupe slim. Style élégant et affirmé pour toutes occasions.',
     icon: '👔',
@@ -289,6 +310,7 @@ const PRODUCTS = {
   },
   22: {
     name: 'Chemise Rayures Larges Carnovale',
+    category: 'homme-chemise',
     price: '19$',
     desc: 'Chemise homme Carnovale Adriano Italy, rayures larges vives col classique. Premium Quality Slim Fit. Couleurs éclatantes pour un style affirmé et moderne.',
     icon: '👔',
@@ -302,6 +324,7 @@ const PRODUCTS = {
   },
   23: {
     name: 'Robe Longue Sirène Brodée',
+    category: 'femme-robe',
     price: '250$',
     oldPrice: '300$',
     desc: 'Robe de soirée longue coupe sirène, entièrement brodée de perles et cristaux. Manches longues transparentes en tulle, silhouette gainante. Pièce de prestige pour mariages, galas et grandes cérémonies.',
@@ -316,6 +339,7 @@ const PRODUCTS = {
   },
   24: {
     name: 'Robe Fente Épaule Dénudée Brodée',
+    category: 'femme-robe',
     price: '250$',
     oldPrice: '300$',
     desc: 'Robe de soirée longue épaule dénudée asymétrique, broderie de cristaux et perles sur tout le corps. Fente latérale élégante, silhouette gainante. Pour une entrée remarquée lors des soirées et cérémonies.',
@@ -330,6 +354,7 @@ const PRODUCTS = {
   },
   25: {
     name: 'Ensemble Veste Ceinturée & Jupe Fleurie',
+    category: 'femme-ensemble',
     price: '49$',
     desc: 'Ensemble femme veste croisée ceinturée avec broche florale assortie, jupe midi évasée à imprimé floral. Look chic et élégant, parfait pour les sorties, cérémonies ou occasions semi-formelles.',
     icon: '👗',
@@ -344,6 +369,7 @@ const PRODUCTS = {
   },
   26: {
     name: 'Ensemble Veste & Jupe Midi Boutons Dorés',
+    category: 'femme-ensemble',
     price: '39$',
     desc: 'Ensemble femme veste courte boutonnée avec boutons dorés ornementaux, jupe midi évasée assortie. Style rétro chic et raffiné, idéal pour les cérémonies, église et occasions élégantes.',
     icon: '👗',
@@ -358,6 +384,7 @@ const PRODUCTS = {
   },
   28: {
     name: 'Kit Sac & Sneakers Femme',
+    category: 'femme-accessoire',
     price: '65$',
     desc: 'Kit coordiné femme : sac à bandoulière chaîne dorée + sneakers assortis. Plusieurs modèles disponibles : Versace, Tommy Hilfiger, Hermès, Guess. Le combo parfait pour un look élégant et sportif.',
     icon: '👜',
@@ -374,6 +401,7 @@ const PRODUCTS = {
   },
   27: {
     name: 'Ensemble Peplum & Jupe Crayon Boutons Dorés',
+    category: 'femme-ensemble',
     price: '39$',
     desc: 'Ensemble femme top peplum manches bouffantes à col V, boutons dorés et ceinture anneau doré, jupe crayon mi-longue assortie. Silhouette flatteuse et élégante pour le bureau ou les cérémonies.',
     icon: '👗',
@@ -388,6 +416,7 @@ const PRODUCTS = {
   },
   29: {
     name: 'Tailleur & Ensemble Élégant',
+    category: 'femme-ensemble',
     price: '46$',
     desc: 'Tailleur et ensemble femme élégant, coupe soignée et raffinée. Disponible en plusieurs modèles et coloris. Idéal pour les cérémonies, le bureau ou les occasions semi-formelles.',
     icon: '👗',
@@ -402,6 +431,7 @@ const PRODUCTS = {
   },
   30: {
     name: 'Veste Élégante',
+    category: 'homme-veste',
     price: '99$',
     oldPrice: '120$',
     desc: 'Veste homme élégante, coupe ajustée et raffinée. Tissu premium, finitions soignées. Idéale pour les cérémonies et occasions formelles.',
@@ -417,6 +447,7 @@ const PRODUCTS = {
   },
   31: {
     name: 'Veste Élégante',
+    category: 'homme-veste',
     price: '99$',
     oldPrice: '120$',
     desc: 'Veste homme élégante, coupe ajustée et raffinée. Tissu premium, finitions soignées. Idéale pour les cérémonies et occasions formelles.',
@@ -433,6 +464,7 @@ const PRODUCTS = {
   },
   32: {
     name: 'Veste Élégante',
+    category: 'homme-veste',
     price: '99$',
     oldPrice: '120$',
     desc: 'Veste homme élégante, coupe ajustée et raffinée. Tissu premium, finitions soignées. Idéale pour les cérémonies et occasions formelles.',
@@ -449,6 +481,7 @@ const PRODUCTS = {
   },
   33: {
     name: 'Veste Élégante',
+    category: 'homme-veste',
     price: '99$',
     oldPrice: '120$',
     desc: 'Veste homme élégante, coupe ajustée et raffinée. Tissu premium, finitions soignées. Idéale pour les cérémonies et occasions formelles.',
@@ -465,6 +498,7 @@ const PRODUCTS = {
   },
   34: {
     name: 'Veste Élégante',
+    category: 'homme-veste',
     price: '99$',
     oldPrice: '120$',
     desc: 'Veste homme élégante, coupe ajustée et raffinée. Tissu premium, finitions soignées. Idéale pour les cérémonies et occasions formelles.',
@@ -487,6 +521,11 @@ const PRODUCTS = {
 
 // ─── INIT ───────────────────────────────────────────────────
 document.addEventListener('DOMContentLoaded', () => {
+  // Cette initialisation ne concerne que la page produit (product.html).
+  // Sur les autres pages qui chargent product.js (ex. cart.html, pour
+  // accéder à PRODUCTS et updateCartCount), on s'arrête ici.
+  if (!document.getElementById('productDetails')) return;
+
   const params = new URLSearchParams(window.location.search);
   const id = parseInt(params.get('id')) || 1;
   const product = PRODUCTS[id] || PRODUCTS[1];
@@ -500,6 +539,7 @@ document.addEventListener('DOMContentLoaded', () => {
   initThemeProduct();
   initHamburgerProduct();
   initCart();
+  loadSimilarProducts(product, id);
 });
 
 // ─── CHARGER PRODUIT ────────────────────────────────────────
@@ -603,7 +643,75 @@ function loadProduct(product, id) {
   updateWhatsappLink(product);
 }
 
+// ─── PRODUITS SIMILAIRES (même catégorie, aléatoire) ────────
+function loadSimilarProducts(product, currentId) {
+  const grid = document.getElementById('similarProductsGrid');
+  if (!grid) return;
+
+  const category = product.category;
+
+  // Tous les produits de la même catégorie, sauf celui affiché
+  let candidates = Object.keys(PRODUCTS)
+    .map(k => parseInt(k))
+    .filter(pid => pid !== currentId && PRODUCTS[pid].category === category);
+
+  // Repli : si pas assez de produits dans la même catégorie, complète avec d'autres
+  if (candidates.length < 3) {
+    const others = Object.keys(PRODUCTS)
+      .map(k => parseInt(k))
+      .filter(pid => pid !== currentId && !candidates.includes(pid));
+    candidates = candidates.concat(others);
+  }
+
+  // Mélange aléatoire (Fisher-Yates) puis on garde 3
+  for (let i = candidates.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [candidates[i], candidates[j]] = [candidates[j], candidates[i]];
+  }
+  const picks = candidates.slice(0, 3);
+
+  grid.innerHTML = '';
+  picks.forEach(pid => {
+    const p = PRODUCTS[pid];
+    const priceHtml = p.oldPrice
+      ? `<span class="price-old">${p.oldPrice}</span> <span class="price-new">${p.price}</span>`
+      : p.price;
+    const colorsHtml = p.colors.slice(0, 2).map((c, i) =>
+      `<button class="color-btn${i === 0 ? ' active' : ''}" style="background:${c.hex};"></button>`
+    ).join('');
+    const sizesHtml = p.sizes.slice(0, 3).map((s, i) =>
+      `<button class="size-btn${i === 1 ? ' active' : ''}">${s}</button>`
+    ).join('');
+
+    const card = document.createElement('div');
+    card.className = 'product-card';
+    card.dataset.id = pid;
+    card.innerHTML = `
+      <div class="product-img-wrap">
+        <span class="badge-new">Nouveau</span>
+        <img src="${p.img}" alt="${p.name}" class="product-img"/>
+        <button class="fav-btn" data-id="${pid}">♡</button>
+      </div>
+      <div class="product-info">
+        <h3 class="product-name">${p.name}</h3>
+        <p class="product-price gold">${priceHtml}</p>
+        <div class="sizes-row">${sizesHtml}</div>
+        <div class="colors-row">${colorsHtml}</div>
+        <a href="product.html?id=${pid}" class="btn-details">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
+          Voir détails &nbsp;›
+        </a>
+      </div>`;
+    grid.appendChild(card);
+  });
+}
+
 // ─── LIEN WHATSAPP DYNAMIQUE ────────────────────────────────
+// N'attache les écouteurs qu'une seule fois (au premier appel), pour éviter
+// que le clic sur "Ajouter au panier" / "WhatsApp" ne se déclenche plusieurs
+// fois si cette fonction est rappelée (ex. à chaque changement de quantité).
+let _whatsappListenersAttached = false;
+
 function updateWhatsappLink(product) {
   const btn = document.getElementById('btnWhatsapp');
   if (!btn) return;
@@ -626,7 +734,23 @@ function updateWhatsappLink(product) {
   }
 
   buildLink();
-  document.addEventListener('click', buildLink);
+
+  if (_whatsappListenersAttached) return;
+  _whatsappListenersAttached = true;
+
+  // Recalcule le lien à chaque changement de taille/couleur/quantité,
+  // sans écouter tout le document (évite les effets de bord sur d'autres clics)
+  document.getElementById('pdSizes')?.addEventListener('click', buildLink);
+  document.getElementById('pdColors')?.addEventListener('click', buildLink);
+  document.getElementById('qtyMinus')?.addEventListener('click', buildLink);
+  document.getElementById('qtyPlus')?.addEventListener('click', buildLink);
+
+  // Cliquer sur "Passer commande via WhatsApp" ajoute aussi l'article au panier
+  // (une seule fois), et actualise immédiatement le compteur avant l'ouverture
+  // de WhatsApp.
+  btn.addEventListener('click', () => {
+    addToCart();
+  });
 }
 
 // ─── QUANTITÉ ───────────────────────────────────────────────
@@ -645,22 +769,37 @@ function initQuantity(product) {
 }
 
 // ─── AJOUTER AU PANIER ──────────────────────────────────────
-function initCart() {
-  const btnAdd = document.getElementById('btnAddCart');
+// Fonction réutilisable : ajoute l'article couramment sélectionné au panier
+// et actualise le compteur affiché dans le header. Appelée par le bouton
+// "Ajouter au panier" ET par le bouton WhatsApp (une commande = un ajout panier).
+function addToCart() {
+  const params  = new URLSearchParams(window.location.search);
+  const id      = parseInt(params.get('id')) || 1;
+  const size    = document.getElementById('sizeSelected')?.textContent || '';
+  const color   = document.getElementById('colorSelected')?.textContent || '';
+  const qty     = parseInt(document.getElementById('qtyVal')?.textContent || '1');
+
+  const cart = JSON.parse(localStorage.getItem('boyashop-cart') || '[]');
+  cart.push({ id, size, color, qty, ts: Date.now() });
+  localStorage.setItem('boyashop-cart', JSON.stringify(cart));
+
+  updateCartCount();
+  return cart;
+}
+
+// Met à jour le badge du compteur panier dans le header (toutes pages)
+function updateCartCount() {
+  const cart = JSON.parse(localStorage.getItem('boyashop-cart') || '[]');
   const countEl = document.getElementById('cartCount');
-  let cart = JSON.parse(localStorage.getItem('boyashop-cart') || '[]');
   if (countEl) countEl.textContent = cart.length;
+}
 
+function initCart() {
+  updateCartCount();
+
+  const btnAdd = document.getElementById('btnAddCart');
   btnAdd?.addEventListener('click', () => {
-    const params  = new URLSearchParams(window.location.search);
-    const id      = parseInt(params.get('id')) || 1;
-    const size    = document.getElementById('sizeSelected')?.textContent || '';
-    const color   = document.getElementById('colorSelected')?.textContent || '';
-    const qty     = parseInt(document.getElementById('qtyVal')?.textContent || '1');
-
-    cart.push({ id, size, color, qty, ts: Date.now() });
-    localStorage.setItem('boyashop-cart', JSON.stringify(cart));
-    if (countEl) countEl.textContent = cart.length;
+    addToCart();
 
     // Feedback visuel
     btnAdd.textContent = '✅ Ajouté !';

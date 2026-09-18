@@ -30,7 +30,7 @@
         <span class="toggle-thumb"></span>
       </span>
     </button>
-    <a href="#" class="cart-btn" id="cartBtn">
+    <a href="cart.html" class="cart-btn" id="cartBtn">
       <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/></svg>
       <span class="cart-count" id="cartCount">0</span>
     </a>
@@ -223,79 +223,8 @@
       <p class="section-sub gold">Des pièces assorties à votre sélection.</p>
     </div>
   </div>
-  <div class="products-grid" style="padding: 0 24px 40px;">
-    <div class="product-card" data-id="2">
-      <div class="product-img-wrap">
-        <span class="badge-new">Nouveau</span>
-        <img src="robes.jpg" alt="Robe longue élégante" class="product-img"/>
-        <button class="fav-btn" data-id="2">♡</button>
-      </div>
-      <div class="product-info">
-        <h3 class="product-name">Robe longue élégante</h3>
-        <p class="product-price gold">65 000 FCFA</p>
-        <div class="sizes-row">
-          <button class="size-btn active">S</button>
-          <button class="size-btn">M</button>
-          <button class="size-btn">L</button>
-        </div>
-        <div class="colors-row">
-          <button class="color-btn active" style="background:#cc0000;"></button>
-          <button class="color-btn" style="background:#111;"></button>
-        </div>
-        <a href="product.html?id=2" class="btn-details">
-          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
-          Voir détails &nbsp;›
-        </a>
-      </div>
-    </div>
-    <div class="product-card" data-id="3">
-      <div class="product-img-wrap">
-        <span class="badge-new">Nouveau</span>
-        <img src="chemise5.jpg" alt="Chemise classique" class="product-img"/>
-        <button class="fav-btn" data-id="3">♡</button>
-      </div>
-      <div class="product-info">
-        <h3 class="product-name">Chemise classique</h3>
-        <p class="product-price gold">25 000 FCFA</p>
-        <div class="sizes-row">
-          <button class="size-btn">S</button>
-          <button class="size-btn active">M</button>
-          <button class="size-btn">L</button>
-        </div>
-        <div class="colors-row">
-          <button class="color-btn active" style="background:#f5f5f5; border:1px solid #aaa;"></button>
-          <button class="color-btn" style="background:#222;"></button>
-        </div>
-        <a href="product.html?id=3" class="btn-details">
-          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
-          Voir détails &nbsp;›
-        </a>
-      </div>
-    </div>
-    <div class="product-card" data-id="4">
-      <div class="product-img-wrap">
-        <span class="badge-new">Nouveau</span>
-        <img src="chaussures.jpg" alt="Chaussures en cuir" class="product-img"/>
-        <button class="fav-btn" data-id="4">♡</button>
-      </div>
-      <div class="product-info">
-        <h3 class="product-name">Chaussures en cuir</h3>
-        <p class="product-price gold">49 900 FCFA</p>
-        <div class="sizes-row">
-          <button class="size-btn">40</button>
-          <button class="size-btn active">41</button>
-          <button class="size-btn">42</button>
-        </div>
-        <div class="colors-row">
-          <button class="color-btn active" style="background:#1a1a1a;"></button>
-          <button class="color-btn" style="background:#8B4513;"></button>
-        </div>
-        <a href="product.html?id=4" class="btn-details">
-          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
-          Voir détails &nbsp;›
-        </a>
-      </div>
-    </div>
+  <div class="products-grid" style="padding: 0 24px 40px;" id="similarProductsGrid">
+    <!-- Généré dynamiquement par product.js selon la catégorie du produit consulté -->
   </div>
 </section>
 

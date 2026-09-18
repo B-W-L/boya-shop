@@ -25,7 +25,7 @@ window.addEventListener('DOMContentLoaded', () => {
   initSizeButtons();
   initColorButtons();
   initFavButtons();
-  initCart();
+  initCartDisplay();
 });
 
 // ─── THÈME CLAIR / SOMBRE ───────────────────────────────────
@@ -186,8 +186,12 @@ function initFavButtons() {
   });
 }
 
-// ─── PANIER ─────────────────────────────────────────────────
-function initCart() {
+// ─── PANIER (affichage du compteur uniquement) ──────────────
+// Nommée différemment de initCart() dans product.js : les deux scripts sont
+// chargés dans la portée globale, et un nom identique ferait que la dernière
+// déclaration écrase l'autre — provoquant un double attachement d'écouteur
+// sur le bouton "Ajouter au panier" (double ajout au panier par clic).
+function initCartDisplay() {
   const count = JSON.parse(localStorage.getItem('boyashop-cart') || '[]').length;
   const el = document.getElementById('cartCount');
   if (el) el.textContent = count;
